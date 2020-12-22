@@ -1,2 +1,3 @@
 # FastPLM
-The source code of FastPLM toolkit, which will be released after approval by Tencent.
+
+The source code of the FastPLM toolbox will be released after the paper is published.

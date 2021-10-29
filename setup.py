@@ -10,7 +10,7 @@ package_data = {'fastplm.files': ['fastplm/files/*.json', 'fastplm/files/*.txt']
 
 setuptools.setup(
     name="fastplm", # Replace with your own username
-    version="0.0.1",
+    version="1.0.0",
     author="Weijie Liu",
     author_email="dataliu@pku.edu.cn",
     description="The FastPLM",

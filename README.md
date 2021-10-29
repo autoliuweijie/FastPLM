@@ -1,6 +1,6 @@
 # FastPLM
 
-An Empirical Study on Adaptive Inference for Pre-trained Language Model.
+[An Empirical Study on Adaptive Inference for Pre-trained Language Model.](https://ieeexplore.ieee.org/document/9585316)
 
 
 ## Model Zoo

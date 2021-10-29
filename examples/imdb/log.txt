@@ -1,0 +1,12 @@
+[14/05/2021-16:03:56 FastBERT google_bert_base_en]: Loading model from /tmp/google_bert_base_en_imdb.bin
+Speed = 0, Acc = 0.926, Ave_exec_layers = 12.0
+Speed = 0.1, Acc = 0.925, Ave_exec_layers = 4.85096
+Speed = 0.2, Acc = 0.924, Ave_exec_layers = 3.53992
+Speed = 0.3, Acc = 0.921, Ave_exec_layers = 2.86928
+Speed = 0.4, Acc = 0.916, Ave_exec_layers = 2.41632
+Speed = 0.5, Acc = 0.911, Ave_exec_layers = 2.08116
+Speed = 0.6, Acc = 0.907, Ave_exec_layers = 1.805
+Speed = 0.7, Acc = 0.901, Ave_exec_layers = 1.57672
+Speed = 0.8, Acc = 0.893, Ave_exec_layers = 1.3872
+Speed = 0.9, Acc = 0.885, Ave_exec_layers = 1.205
+Speed = 1.0, Acc = 0.870, Ave_exec_layers = 1.00008

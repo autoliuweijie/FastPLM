@@ -1,0 +1,17 @@
+{
+    "dropout": 0.1,
+    "emb_size": 768,
+    "hidden_act": "gelu",
+    "hidden_size": 768,
+    "feedforward_size":3072,
+    "heads_num": 12,
+    "layers_num": 6,
+    "embedding":"bert",
+    "encoder": "bert",
+    "pooling": "first",
+    "vocab_path": "google_uncased_en_vocab.txt",
+    "pretrained_model_path": "huawei_tinybert_6_en.bin",
+    "pretrained_model_md5": "658899a8853c4dc2894ff58f3fac1643",
+    "pretrained_model_url": "Unreleased now.",
+    "pretrained_model_url_bak": "Unreleased now."
+}

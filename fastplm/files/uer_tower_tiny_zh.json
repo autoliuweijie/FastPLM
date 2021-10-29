@@ -1,0 +1,16 @@
+{
+    "emb_size": 192,
+    "feedforward_size": 768,
+    "hidden_size": 192,
+    "heads_num": 12,
+    "layers_num": 12,
+    "dropout": 0.1,
+    "embedding": "bert",
+    "encoder": "bert",
+    "pooling": "first",
+    "vocab_path": "google_zh_vocab.txt",
+    "pretrained_model_path": "unavaliable",
+    "pretrained_model_md5": "unavaliable",
+    "pretrained_model_url": "unavaliable",
+    "pretrained_model_url_bak": "unavaliable"
+}

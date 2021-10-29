@@ -1,0 +1,16 @@
+{
+    "emb_size": 128,
+    "hidden_size": 1268,
+    "layers_num": 13,
+    "kernel_size": 4,
+    "block_size": 2,
+    "dropout": 0.1,
+    "embedding": "word",
+    "encoder": "gatedcnn",
+    "pooling": "max",
+    "vocab_path": "google_zh_vocab.txt",
+    "pretrained_model_path": "unavaliable now",
+    "pretrained_model_md5": "unavaliable now",
+    "pretrained_model_url": "unavaliable now",
+    "pretrained_model_url_bak": "unavaliable now"
+}

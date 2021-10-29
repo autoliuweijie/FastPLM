@@ -1,0 +1,17 @@
+{
+    "emb_size": 768,
+    "feedforward_size": 3072,
+    "hidden_size": 768,
+    "heads_num": 12,
+    "layers_num": 12,
+    "dropout": 0.1,
+    "embedding": "bert",
+    "encoder": "bert",
+    "pooling": "first",
+    "hidden_act": "gelu", 
+    "vocab_path": "google_uncased_en_vocab.txt",
+    "pretrained_model_path": "google_bert_base_en.bin",
+    "pretrained_model_md5": "a634087effb2f4452c8825de829fbe03",
+    "pretrained_model_url": "https://fastbert-model-file-1257235592.cos.ap-beijing.myqcloud.com/google_bert_base_en.bin",
+    "pretrained_model_url_bak": "https://share.weiyun.com/fpdOtcmz"
+}

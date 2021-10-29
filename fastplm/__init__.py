@@ -1,8 +1,30 @@
-# coding: utf-8
+# coding:utf-8
+import os, sys
+from .config import *
 
 
-class FastPLM(object):
+sys.path.append(LIB_DIR)
+if not os.path.exists(PROJECT_HOME_DIR):
+    os.mkdir(PROJECT_HOME_DIR)
 
-    def __init__(self,
+
+from .fastbert import FastBERT
+from .fastbert import FastBERT_S2
+from .fastgpt import FastGPT
+from .fastgpt import FastGPT_S2
+from .fastgcnn import FastGCNN
+from .fastgcnn import FastGCNN_S2
+from .fastalbert import FastALBERT
+from .fastalbert import FastALBERT_S2
+
+def FastPLM(kernel_name,
+              **kwargs):
+    model = globals()[SINGLE_SENTENCE_CLS_KERNEL_MAP[kernel_name]](kernel_name, **kwargs)
+    return model
+
+
+def FastPLM_S2(kernel_name,
                  **kwargs):
-        raise NotImplementedError("FastPLM toolkit will be avalible after approval by Tencent.")
+    model = globals()[DOUBLE_SENTENCE_CLS_KERNEL_MAP[kernel_name]](kernel_name, **kwargs)
+    return model
+

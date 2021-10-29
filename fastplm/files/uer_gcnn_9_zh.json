@@ -1,0 +1,16 @@
+{
+    "emb_size": 128,
+    "hidden_size": 807,
+    "layers_num": 9,
+    "kernel_size": 4,
+    "block_size": 2,
+    "dropout": 0.1,
+    "embedding": "word",
+    "encoder": "gatedcnn",
+    "pooling": "mean",
+    "vocab_path": "google_zh_vocab.txt",
+    "pretrained_model_path": "uer_gcnn_9_zh.bin",
+    "pretrained_model_md5": "ce0b5c1ed944f43031db627eda78fa16",
+    "pretrained_model_url": "Please contact jagerliu via WeChat",
+    "pretrained_model_url_bak": "Please contact jagerliu via WeChat"
+}
